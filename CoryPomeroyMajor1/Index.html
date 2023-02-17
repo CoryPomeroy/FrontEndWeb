@@ -1,0 +1,204 @@
+i<!doctype html>
+<html lang="en">
+<head>
+	<title>Mushroom Outbreak</title>
+	<meta charset="utf-8">
+	initial-scale=1">
+	<!--[if lt IE 9]>
+	<script src="files/html5shiv.js"></script>
+	<![endif]-->
+	<style> 
+/* Background */
+		body {
+		  background-image: url("Header BG.png");
+		  background-color: black;
+		  background-repeat: no-repeat;
+  		  background-attachment:scroll;
+		  background-size:contain
+		}
+/* Header */
+		.header {
+		  align-content: stretch;
+		  width: 100%;
+  		  height: auto;
+		}
+/* Top Navigation */		
+		ul {
+			list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		}
+		li {
+			display: inline;
+			font-size: 30px;
+			background-color: #000000;
+		}
+		.navi {
+			color:white;
+			font:bolder;
+			word-spacing: 4em;
+		}
+		.container {
+        width: 60%;
+        height: 45px;
+        margin: 0 auto;
+        background-color: rgba(2,1,0,0.73);
+			
+		}
+/* Left Navigation */
+		.vertical-menu {
+		  width: 175px; 
+		  float: right;
+		  grid-column: 2 / span 3;
+		}
+		.vertical-menu a {
+		  background-color: #FFFFFF; 
+		  opacity: 70%;
+		  color: #000000; 
+		  display: block; 
+		  padding: 12px; 
+		  text-decoration: none; 
+		}
+		.vertical-menu a:hover {
+		  background-color: #FEA40A; 
+		}
+		.vertical-menu a.active {
+		  background-color: #282828; 
+		  color: #FFE9C3;
+		}
+		.vertical-menu{
+			width: 150px;
+			float: left
+		}
+		
+		.sd_menu {
+			font:bolder;
+			font-size: 20px;
+		}
+		.section {
+		    white-space: nowrap;
+		    overflow-x: auto;    
+			display: grid;
+    		grid-template-columns: 1fr 1fr;
+   			grid-gap: 20px;
+		}
+/* Grid */
+		.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto auto auto auto auto;
+		  gap: 20px;
+		  padding: 10px;
+		}
+		.grid-container > div {
+		  padding: 0px;
+		}
+		.item1 {
+		  grid-row: 1/6;
+		}
+		.item2 {
+		  grid-column: 2;
+		  grid-row: 3
+		}
+		.item3 {
+		  grid-column: 3;
+		  grid-row: 3
+		}
+		.item4 {
+		  grid-column: 4;
+		  grid-row: 3;
+		}
+		.item5 {
+		  grid-column: 5;
+		  grid-row: 3;
+		}
+		.item6 {
+		  grid-column: 6;
+		  grid-row: 3;
+		}
+		.intro {
+		  grid-column: 4/4;
+		  background-color: #FFFFFF; 
+		  opacity: 70%;
+		  color: #000000; 
+		  font-size: 20
+		}
+		.intro2 {
+		  grid-row: 2;
+		  grid-column: 2 / span 5;
+		  font-size: 25px;
+		  background-color: #000000;
+		  opacity:80%;
+		  border-style: double;
+  		  border-left-width: 30px;
+		  border-right-width: 30px;
+		}
+		.content {
+		  border-style: double;
+  		  border-left-width: 100px;
+		  border-right-width: 100px;
+		}
+		</style>
+</head>
+	<header>
+		<div align="center">
+			<img src="Title no bg.png" class="header">
+		</div>
+<!-- Top menu -->			
+		<header role="banner" align="center">
+			<ul class="navi">
+				<li><a href="#" class="navi">Home</a></li>
+				<li><a href="#" class="navi">Gallery</a></li>
+				<li><a href="#" class="navi">About</a></li>
+				<li><a href="#" class="navi">Contact</a></li>
+			</nav>
+		</header>
+	<body>
+<!-- Left Menu -->	
+		<div class="grid-container">
+		<div class="item1">
+	 		<div class="vertical-menu" style="overflow-x: float: left;">
+			<li><a href="#" class="active">Categories</a></li>
+			<li><a href="#" class="sd_menu">Wood Lovers</a></li>
+			<li><a href="#" class="sd_menu">Soil Lovers</a></li>
+			<li><a href="#" class="sd_menu">Manuer Lovers</a></li>
+			<li><a href="#" class="sd_menu">Sun Lovers</a></li>
+			<li><a href="#" class="sd_menu">Moon Lovers</a></li>
+			<li><a href="#" class="sd_menu">Decomposers</a></li>
+			<li><a href="#" class="sd_menu">Symbiotic</a></li>
+			<li><a href="#" class="sd_menu">Amensalism</a></li>
+			<li><a href="#" class="sd_menu">Luminescence</a></li>
+			</div></div>
+<!-- Intro -->
+			<div class="intro" align="center">
+				  <h2>The Movement</h2></div>
+			<div class="intro2"><font color="#FFFFFF"><p>
+				Mushrooms are not only part of a food dish but are also fun to grow. Mushroom advocates have taken part in representing the beauty of Mushrooms through different art forms, from cultivation, to culinary masterpieces, and their natural state in nature. Paul Stamets, a pioneer in mushroom cultivation, revolutionized the mushroom culture in America in the 1970s by documenting the cultivation and creation of new species and strains. Since then, many mushroom advocates have flocked to capture the beauty of Mushrooms. &nbsp;</p>
+			</font></div>
+				
+			<div class="item2">	
+				<img src="Mush_1.png" style="width:100%">
+			</div>  				
+			<div class="item3">
+				<img src="Mush_3.png" style="width:100%">
+			</div>
+			<div class="item4" align="center">
+				<img src="Mush_2.png" style="width:100%">
+			</div>
+			<div class="item5">
+				<img src="Mush_4.png" style="width:100%">
+			</div>
+			<div class="item6">
+				<img src="Mush_5.png" style="width:100%">
+			</div></div> 
+			<div class="content">
+			  <h2><font color="#FFFFFF">Stephen Axford</font></h2>
+				<p><font color="#FFFFFF" size="5">
+				Axford is one of the leading photographers in the mushroom movement. Th pictures above are all taken in his backyard.&nbsp; He lives
+				in Australia and has traveled the world taking part in his passion for mushroom photography. Even though he travels the world, his
+				most common place of inspiration is in his backyard. His most well-known masterpieces are his time lapses which caught the
+				attention of the British Broadcasting Corporation (BBC) and were showcased on "Planet Earth 2." His time lapses made the top IO
+				clips in the series. People fell in love with the growth and movement of the mushrooms he captured. He's gone on to publish many
+				more time lapses since then and has helped discover many.</font></p>
+</div>
+	</body>
+</html>
